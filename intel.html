@@ -1,0 +1,64 @@
+html
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine erste Webseite</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf2f8;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .karte {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #1769aa;
+        }
+
+        p {
+            color: #444;
+            font-size: 18px;
+        }
+
+        button {
+            background: #1769aa;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+</body>
+    <div class="karte">
+        <h1>Willkommen auf meiner Webseite!</h1>
+
+        <p>Ich lerne, Webseiten zu erstellen.</p>
+
+        <p>Mein Ziel ist es, mit künstlicher Intelligenz zu arbeiten.</p>
+
+        <button onclick="zeigeNachricht()">
+            Klicke mich!
+        </button>
+    </div>
+html
+<script>
+function zeigeNachricht() {
+    alert("Willkommen! Du lernst programmieren!");
+}
+</script>
+</body>
+</html>
